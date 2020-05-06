@@ -107,6 +107,7 @@ footer {
 
 footer div {
 	height: 10em;
+	padding: 2em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
