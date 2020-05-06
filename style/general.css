@@ -123,11 +123,12 @@ footer > div > button {
 }
 
 footer .container .links p {
-	
+	margin: 0 2em;
 }
 
 footer .container .links {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
