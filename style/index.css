@@ -21,16 +21,15 @@ section.intro .container img {
 }
 
 section.intro .container .bio {
-    width: 35%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     box-sizing: box-border;
-    padding: 1% 7%;
 }
 
 section.intro .container div.bio * {
-	margin: 2% 0;
+	margin: 2% 15%;
 }
 
 section.intro .container div.bio button {
