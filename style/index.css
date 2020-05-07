@@ -70,3 +70,53 @@ section.gallery div.row div {
 section.gallery div.row div a img {
     width: 20rem;
 }
+
+@media (max-width: 800px) {
+    section.intro div.container div.bio * {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    section.gallery {
+        padding: 1% 0 1% 0;
+    }
+}
+@media (max-width: 500px) {
+    section.intro .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.intro .container div.img-div {
+        width: 100%;
+    }
+
+    section.intro .container div.img-div img {
+        width: 100%;
+        margin: 0;
+    }
+
+    section.intro div.container div.bio {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    section.intro div.container div.bio a.button-link {
+        padding: 1% 0;
+        width: 25%
+    }
+
+    footer .button-link {
+        margin: 1% 0;
+        padding: 3% 7%;
+    }
+
+    section.gallery div.row {
+        margin: 0;
+    }
+
+    section.gallery div.row div {
+        margin: 3% 0;
+    }
+}
