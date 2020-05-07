@@ -24,6 +24,7 @@ section.intro .container .bio {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-start;
     box-sizing: box-border;
 }
 
@@ -31,12 +32,11 @@ section.intro .container div.bio * {
 	margin: 2% 15%;
 }
 
-section.intro .container div.bio button {
+section.intro div.container div.bio a.button-link {
+    padding: .5% 3%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 12em;
-    height: fit-content;
+    white-space: nowrap;
     animation: glow 5s infinite;
 }
 
