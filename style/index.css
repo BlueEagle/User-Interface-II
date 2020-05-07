@@ -15,7 +15,7 @@ section.intro .container .img-div {
 
 section.intro .container img {
     width: 90%;
-    margin: 1em;
+    margin: 2%;
     object-fit: contain;
 }
 
@@ -34,9 +34,6 @@ section.intro .container div.bio * {
 
 section.intro div.container div.bio a.button-link {
     padding: .5% 3%;
-    display: flex;
-    justify-content: center;
-    white-space: nowrap;
     animation: glow 5s infinite;
 }
 
@@ -45,7 +42,7 @@ section.intro div.container div.bio a.button-link {
         box-shadow: 0;
     }
     50% {
-        box-shadow: 5px 5px;
+        box-shadow: .5rem .5rem;
     }
     to {
         box-shadow: 0;

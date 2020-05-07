@@ -19,8 +19,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	font-size: 62.5%;
 	font: inherit;
+	font-size: 62.5%;
 	vertical-align: baseline;
 	text-decoration: none;
 }
@@ -56,19 +56,19 @@ table {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 4rem;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 }
 
 h3 {
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 }
 
-p {
-	font-size: 1rem;
+p, a {
+	font-size: 1.6rem;
 }
 
 header {
@@ -87,6 +87,9 @@ header div nav {
 }
 
 .button-link {
+	display: flex;
+  justify-content: center;
+  white-space: nowrap;
 	padding: .5% 2%;
 	background: #F0F0F0;
 	border: .1rem solid #08253e;
