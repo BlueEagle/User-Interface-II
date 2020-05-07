@@ -4,7 +4,8 @@ section {
 
 section.intro .container {
     display: flex;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
 }
 
 
@@ -25,7 +26,7 @@ section.intro .container .bio {
     flex-direction: column;
     justify-content: flex-end;
     box-sizing: box-border;
-    /* padding: 1% 7%; */
+    padding: 1% 7%;
 }
 
 section.intro .container div.bio * {
