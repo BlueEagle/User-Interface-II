@@ -49,7 +49,7 @@ table {
 
 *{
 	box-sizing: box-border;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	font-family: Nunito;
 }
 
