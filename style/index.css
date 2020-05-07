@@ -2,39 +2,41 @@ section {
 	display: flex;
 }
 
-section.main-body {
+section.intro-section {
 	min-height: max-content;
 	flex-direction: column;
 }
 
-section.main-body div.intro {
+section.intro-section div.intro {
     display: flex;
     flex-direction: row;
-	justify-content: space-between;
+    justify-content: space-between;
+    
 }
 
-section.main-body div.intro img {
+section.intro-section div.intro img {
 	margin: .7em;
 	width: 50%;
 }
 
-section.main-body div.intro div {
-    width: 40%;
-	display: flex;
-	flex-direction: column;
+section.intro-section div.intro div {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 	justify-content: flex-end;
 	padding: 1% 7%;
 }
 
-section.main-body div.intro div * {
+section.intro-section div.intro div * {
 	margin: 2% 0;
 }
 
-section.main-body div.intro div button {
+section.intro-section div.intro div button {
 	width: 10em;
 }
 
-section.main-body div.gallery {
+section.intro-section div.gallery {
 	height: 60%;
 }
 
