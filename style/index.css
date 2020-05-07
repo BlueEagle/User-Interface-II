@@ -2,42 +2,36 @@ section {
 	display: flex;
 }
 
-section.intro-section {
-	min-height: max-content;
-	flex-direction: column;
-}
-
-section.intro-section div.intro {
+section.intro .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
 }
 
-section.intro-section div.intro img {
-	margin: .7em;
-	width: 50%;
-}
 
-section.intro-section div.intro div {
+section.intro .container .img-div {
+    display: flex;
+    justify-content: flex-start;
     width: 50%;
-    box-sizing: border-box;
+}
+
+section.intro .container img {
+    width: 90%;
+    margin: 1em;
+}
+
+section.intro .container .bio {
+    width: 50%;
     display: flex;
     flex-direction: column;
-	justify-content: flex-end;
-	padding: 1% 7%;
+    justify-content: flex-end;
+    box-sizing: box-border;
 }
 
-section.intro-section div.intro div * {
-	margin: 2% 0;
+section.intro .container div.bio * {
+	margin: 2% 15%;
 }
 
-section.intro-section div.intro div button {
+section.intro .container div.bio button {
 	width: 10em;
-}
-
-section.intro-section div.gallery {
-	height: 60%;
 }
 
 section.gallery {
