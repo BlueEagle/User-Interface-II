@@ -71,6 +71,9 @@ p {
 
 header {
 	background: lightgray;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 header div {
