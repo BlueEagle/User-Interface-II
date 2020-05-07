@@ -31,7 +31,24 @@ section.intro .container div.bio * {
 }
 
 section.intro .container div.bio button {
-	width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+    height: fit-content;
+    animation: glow 5s infinite;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 5px 5px;
+    }
+    to {
+        box-shadow: 0;
+    }
 }
 
 section.gallery {
