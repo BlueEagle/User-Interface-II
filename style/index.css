@@ -55,7 +55,7 @@ section.gallery {
 }
 
 section.gallery div.row {
-    margin: 2vh 0 3vh 0;
+    margin: 2% 0 4% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -68,5 +68,5 @@ section.gallery div.row div {
 }
 
 section.gallery div.row div a img {
-    width: 200px;
+    width: 20rem;
 }
