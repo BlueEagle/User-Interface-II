@@ -11,7 +11,7 @@ section.intro .container {
 section.intro .container .img-div {
     display: flex;
     justify-content: flex-start;
-    width: 50vw;
+    width: 50%;
 }
 
 section.intro .container img {
@@ -20,18 +20,19 @@ section.intro .container img {
 }
 
 section.intro .container .bio {
-    width: 50vw;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 1% 7%;
+    box-sizing: box-border;
+    /* padding: 1% 7%; */
 }
 
-section.intro .container div * {
+section.intro .container div.bio * {
 	margin: 2% 0;
 }
 
-section.intro .container div button {
+section.intro .container div.bio button {
 	width: 10em;
 }
 
