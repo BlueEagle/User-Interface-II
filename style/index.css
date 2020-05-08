@@ -80,6 +80,11 @@ section.gallery div.row div a img {
         padding: 1% 0 1% 0;
     }
 }
+@media (max-width: 799px) {
+    section.gallery div.row div {
+        margin: 5%;
+    }
+}
 @media (max-width: 500px) { /* works well up to 600x */
     section.intro .container {
         flex-direction: column;
